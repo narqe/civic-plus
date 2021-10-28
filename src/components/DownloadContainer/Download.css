@@ -1,0 +1,10 @@
+.download-container {
+    width: 400px;
+    max-width: 400px;
+}
+
+.download-buttons {
+    display: grid;
+    grid-template-columns: minmax(auto, 0.8fr) 0.1fr 0.1fr;
+    margin: 5px 0;
+}

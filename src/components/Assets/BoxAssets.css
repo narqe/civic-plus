@@ -1,0 +1,46 @@
+.box-asset {
+    border-radius: 4px;
+    margin: 0 auto;
+    display: inline-block;
+    border: 2px solid #eaeaea;
+    box-shadow: 1px 5px 5px 1px #e3e3e3;
+    padding: 10px;
+    background-color: rgb(247, 247, 247);
+    width: min-content;
+    min-width: 150px;
+}
+
+.box-asset--title {
+    font-size: 22px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+.box-asset--status, 
+.box-asset--categories {
+    margin: 0.4em 0;
+    padding: 0;
+} 
+
+.box-asset--categories {
+    font-size: 14px;
+}
+
+span[class^="status-"]{
+    font-weight: bold;
+    margin: 4px 0;
+    padding: 0;
+}
+
+span[class$="Draft"] {
+    color: rgb(134, 134, 7)
+}
+
+span[class$="Published"] {
+    color: green
+}
+
+span[class$="Deleted"] {
+    color: red
+}
